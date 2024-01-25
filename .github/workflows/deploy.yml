@@ -21,7 +21,7 @@ jobs:
 
       # 生成静态文件
       - name: Build
-        run: npm install && npm run docs:build && ls -al
+        run: npm install && npm run docs:build && ls -al && pwd
 
       # 部署到 GitHub Pages
       - name: Deploy
