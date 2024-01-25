@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,V as n}from"./chunks/framework.2xniYgV0.js";const y=JSON.parse('{"title":"当前钱包运行环境检测","description":"","frontmatter":{},"headers":[],"relativePath":"solana-cn.md","filePath":"solana-cn.md"}'),l={name:"solana-cn.md"},h=n("",45),t=[h];function k(p,e,E,d,r,g){return a(),i("div",null,t)}const c=s(l,[["render",k]]);export{y as __pageData,c as default};
