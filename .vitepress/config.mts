@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Bybit Web3",
   description: "Bybit Wallet Integration Guide",
-  base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
