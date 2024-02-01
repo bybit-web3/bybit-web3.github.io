@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "Bybit Wallet Integration Guide"
+  name: "Bybit Wallet 接入指南"
   # text: "Follow the steps below to integrate Bybit Wallet into your project."
-  tagline: Follow the steps below to integrate Bybit Wallet into your project.
+  tagline: 按照以下步骤将Bybit Wallet集成到您的项目中。
   actions:
     - theme: brand
-      text: Get Started
-      link: /en/getting-started
+      text: 开始接入
+      link: /zh/getting-started
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
