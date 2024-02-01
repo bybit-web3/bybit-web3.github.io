@@ -73,7 +73,7 @@ if (typeof window.bybitWallet !== 'undefined') {
 
 When your website sends a login request to Bybit Wallet users, Bybit Wallet may generate a modal window that displays the icon of your website.
 
-![favicon](../images/favicon-guide.png)
+![favicon](./images/favicon-guide.png)
 
 We will use the HTML selector `<head> link[rel="shortcut icon"]` to retrieve this icon. When defining the icon, you need to follow the Favicon standard and ensure that your website's head contains a link tag, similar to `rel="shortcut icon"`.
 
@@ -134,8 +134,8 @@ Unfortunately, Bybit Wallet, as a hosted wallet, does not currently support user
 Bybit Wallet does not currently support users adding tokens via the window.bybitWallet API. If you need to add custom ERC20 tokens, you can do so manually through the wallet's UI interface.
 
 <p>
-<img src='../images/add-token1.png' width='400' />
-<img src='../images/add-token2.png' width='400' />
+<img src='./images/add-token1.png' width='400' />
+<img src='./images/add-token2.png' width='400' />
 </p>
 
 ## Sending Transactions
