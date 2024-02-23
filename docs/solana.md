@@ -1,10 +1,3 @@
-::: warning
-The current online version of Bybit Wallet does not yet support the Solana chain. We will release a version that supports the Solana chain in the near future. Please stay tuned for our official announcement.
-
-This technical document is for reference purposes only and does not represent the final functionality of the product.
-:::
-
-
 # Current Wallet Runtime Environment Check
 
 ## Check if Bybit Wallet is installed and running properly
