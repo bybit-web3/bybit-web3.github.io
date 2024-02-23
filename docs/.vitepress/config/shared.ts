@@ -5,6 +5,7 @@ export const shared = defineConfig({
     description: "Bybit Wallet Integration Guide",
     lastUpdated: true,
     cleanUrls: true,
+    base: "/",
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
