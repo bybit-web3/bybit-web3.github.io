@@ -25,10 +25,10 @@ For dapps compatible with Metamask, the provider is called using `window.ethereu
 
 | Type      | Supported |  Remarks  |
 | ----------- | ----------- | ----------- |
-| personal_sign | ❌ | Not supported due to security risks |
+| eth_sign | ❌ | Not supported due to security risks |
 | personal_sign | ✅ | |
 | eth_signTypedData | ❌ | Not supported due to security risks |
-| eth_signTypedData_v3 | ✅ | |
+| eth_signTypedData_v3 |  ❌ | Not supported due to security risks |
 | eth_signTypedData_v4 | ✅ | |
 
 ## EIP6963

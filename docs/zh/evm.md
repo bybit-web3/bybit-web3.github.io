@@ -25,10 +25,10 @@
 
 | 类型      | 是否支持 |  备注  |
 | ----------- | ----------- | ----------- |
-| personal_sign | ❌ | 因存在安全风险，当前不支持 |
+| eth_sign | ❌ | 因存在安全风险，当前不支持 |
 | personal_sign | ✅ | |
 | eth_signTypedData | ❌ | 因存在安全风险，当前不支持 |
-| eth_signTypedData_v3 | ✅ | |
+| eth_signTypedData_v3 | ❌ | 因存在安全风险，当前不支持 |
 | eth_signTypedData_v4 | ✅ | |
 
 ## EIP6963
