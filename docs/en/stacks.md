@@ -5,7 +5,6 @@ This technical documentation is for developer reference only and does not repres
 :::
 
 # Stacks
-# Stacks
 Stacks is a Layer-1 blockchain that allows for the development of dApps in the DeFi, NFT, and smart contract space on top of Bitcoin. This enables Stacks to leverage the security and stability of Bitcoin while allowing developers to build native dApps on Layer 1.
 
 # Provider API
