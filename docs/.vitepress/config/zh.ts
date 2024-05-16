@@ -41,6 +41,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'EVM', link: 'evm' },
         { text: 'Solana', link: 'solana' },
         { text: 'Bitcoin', link: 'bitcoin' },
+        { text: 'Stacks', link: 'stacks' },
       ]
     },
   ]
