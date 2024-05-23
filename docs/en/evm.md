@@ -2,20 +2,49 @@
 
 ## Supported Chains
 
-| Chain Name      | Chain ID |
-| ----------- | ----------- |
-| Ethereum      | 1       |
-| MANTLE   | 5000        |
-| BNB Chain   | 56        |
-| Polygon   | 137        |
-| Optimism   | 10        |
-| Avalanche C   | 43114        |
-| Arbitrum One   | 42161        |
-| Fantom   | 250        |
-| zkSync Era   | 324        |
-| Linea   | 59144        |
-| Base   | 8453        |
-| Manta Pacific   | 169        |
+### Cloud Wallet
+
+| Chain Name      | Chain ID | Status |
+| ----------- | ----------- | ----------- |
+| Ethereum      | 1       | ✅ |
+| MANTLE   | 5000        | ✅ |
+| BNB Chain   | 56        | ✅ |
+| Polygon   | 137        | ✅ |
+| Optimism   | 10        | ✅ |
+| Avalanche C   | 43114        | ✅ |
+| Arbitrum One   | 42161        | ✅ |
+| Fantom   | 250        | ✅ |
+| zkSync Era   | 324        | ✅ |
+| Linea   | 59144        | ✅ |
+| Base   | 8453        | ✅ |
+| Manta Pacific   | 169        | ✅ |
+| ZetaChain   | 7000        | ✅ |
+| MERLIN   | 4200        | ✅ |
+| Blast   |   81457      | Coming Soon |
+
+### Mnemonic/Private Key Wallet
+
+| Chain Name      | Chain ID | Status |
+| ----------- | ----------- | ----------- |
+| Ethereum      | 1       | ✅ |
+| MANTLE   | 5000        | ✅ |
+| BNB Chain   | 56        | ✅ |
+| Polygon   | 137        | ✅ |
+| Optimism   | 10        | ✅ |
+| Avalanche C   | 43114        | ✅ |
+| Arbitrum One   | 42161        | ✅ |
+| Fantom   | 250        | ✅ |
+| zkSync Era   | 324        | ✅ |
+| ZetaChain   | 7000        | ✅ |
+| OKX Chain | 66        | ✅ |
+| MERLIN   | 7000        | ✅ |
+| BEvmChain   |   11501      | ✅ |
+| Manta Pacific   | 169        | Coming Soon |
+| Linea   | 59144        | Coming Soon |
+| Blast   |   81457      | Coming Soon |
+| Base   |   8453      | Coming Soon |
+| BounceBit   |   6001      | Coming Soon |
+| B Square   |   223      | Coming Soon |
 
 ## Integrating Bybit Wallet
 

@@ -20,7 +20,7 @@
 | Manta Pacific   | 169        | ✅ |
 | ZetaChain   | 7000        | ✅ |
 | MERLIN   | 4200        | ✅ |
-| BLAST   |   81457      | 即将支持 |
+| Blast   |   81457      | 即将支持 |
 
 ### 助记词/私钥钱包
 
@@ -35,14 +35,16 @@
 | Arbitrum One   | 42161        | ✅ |
 | Fantom   | 250        | ✅ |
 | zkSync Era   | 324        | ✅ |
-| Manta Pacific   | 169        | ✅ |
 | ZetaChain   | 7000        | ✅ |
-| OKX Chain 66        | ✅ |
+| OKX Chain | 66        | ✅ |
 | MERLIN   | 7000        | ✅ |
-| BEvmChain   |   11501      | 即将支持 |
+| BEvmChain   |   11501      | ✅ |
+| Manta Pacific   | 169        | 即将支持 |
 | Linea   | 59144        | 即将支持 |
-| BLAST   |   81457      | 即将支持 |
+| Blast   |   81457      | 即将支持 |
 | Base   |   8453      | 即将支持 |
+| BounceBit   |   6001      | 即将支持 |
+| B Square   |   223      | 即将支持 |
 
 ## 集成Bybit Wallet
 
