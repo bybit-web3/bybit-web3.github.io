@@ -35,6 +35,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       link: 'material'
     },
     {
+      text: '更新日志',
+      link: 'release-notes'
+    },
+    {
       text: 'Dapp接入指南',
       collapsed: false,
       items: [

@@ -28,9 +28,13 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       link: 'getting-started'
     },
     {
-        text: 'Logo Material',
-        link: 'material'
-      },
+      text: 'Logo Material',
+      link: 'material'
+    },
+    {
+      text: 'Release Notes',
+      link: 'release-notes'
+    },
     {
       text: 'Dapp Integration Guide',
       collapsed: false,

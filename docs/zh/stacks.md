@@ -1,9 +1,3 @@
-::: warning
-Bybit Wallet 当先的线上版本尚未支持 Stacks 链，我们的助记词钱包将在近期推出支持 Stacks 链的版本。请关注我们的官方公告。
-
-本技术文档仅供开发者参考，不代表最终产品的功能。
-:::
-
 # Stacks
 Stacks 是一个 Layer-1 区块链，允许在比特币之上构建 DeFi、NFT 和智能合约领域的 dApps。这使得 Stacks 可以利用比特币的安全性和稳定性，同时允许开发人员在 Layer 1 上构建本地的 dApps。
 

@@ -1,8 +1,3 @@
-::: warning
-Bybit Wallet's current online version does not yet support the Stacks chain. Our mnemonic wallet will soon release a version that supports the Stacks chain. Please stay tuned for our official announcement.
-
-This technical documentation is for developer reference only and does not represent the functionality of the final product.
-:::
 
 # Stacks
 Stacks is a Layer-1 blockchain that allows for the development of dApps in the DeFi, NFT, and smart contract space on top of Bitcoin. This enables Stacks to leverage the security and stability of Bitcoin while allowing developers to build native dApps on Layer 1.
