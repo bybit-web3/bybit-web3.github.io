@@ -158,7 +158,7 @@ window.ethereum.request({
 
 ## 添加新链
 
-抱歉的是，Bybit Wallet作为一个托管钱包，暂时还不支持用户添加其他EVM链，目前只能使用内建的公链。
+Bybit Wallet暂时还不支持用户添加其他EVM链，目前只能使用内建的公链。
 
 ## 添加代币
 
@@ -310,3 +310,26 @@ window.bybitWallet.request({
 ```
 
 每个项目可以自行签名的标准。但是这只适合简单的情形，例如验证账户拥有者，此时签名的消息内容如何是无关紧要的。但是如果是涉及代币、NFT资产的转移，就需要比较小心了，如果设计不好很容易被攻击者利用，于是发展出了标准的结构化签名标准EIP-712。
+
+## 切换钱包类型
+
+Bybit Wallet支持两种类型的钱包：托管钱包和助记词/私钥钱包。您可以通过调用以下方法来切换钱包类型：
+
+```js
+window.bybitWallet.request({
+    method: 'switchWallet',
+    params: [{
+      walletType: [4, 5], // 枚举值：[1, 4，5]，1: 托管钱包，4: 私钥钱包，5: 助记词
+      chainType: 1 // 链类型，1: EVM链，2: SUI, 3: Solana 4: BTC 5: Stacks 
+    }]
+})
+```
+
+该方法会请求用户提供一个`walletType`的数组和`chainType`来切换钱包类型，发起请求后会弹出一个Bybit Wallet的弹窗。如下图所示：
+![alt text](../images/image-2.png)
+
+如果用户当前的钱包不符合切换的条件，相关的组件会置灰，用户需要点击switch按钮来切换钱包类型。
+![alt text](../images/image-3.png)
+
+当选择好正确的钱包，并确认后，Bybit Wallet会返回钱包地址给DApp。
+

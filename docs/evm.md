@@ -307,3 +307,25 @@ window.bybitWallet.request({
 ```
 
 Each project can have its own custom signature. However, this is only suitable for simple cases where the content of the signed message is irrelevant, such as verifying the account owner. But if it involves the transfer of tokens or NFT assets, caution is needed. If not designed properly, it can be easily exploited by attackers. Therefore, the standardized structured signature standard EIP-712 was developed.
+
+## Switching Wallet Type
+
+Bybit Wallet supports two types of wallets: hosted wallet and mnemonic/private key wallet. You can switch the wallet type by calling the following method:
+
+```js
+window.bybitWallet.request({
+    method: 'switchWallet',
+    params: [{
+      walletType: [4, 5], // Enum values: [1, 4, 5], 1: Hosted Wallet, 4: Private Key Wallet, 5: Mnemonic Wallet
+      chainType: 1 // Chain type, 1: EVM Chain, 2: SUI, 3: Solana, 4: BTC, 5: Stacks 
+    }]
+})
+```
+
+This method requests the user to provide an array of `walletType` and `chainType` to switch the wallet type. After initiating the request, a Bybit Wallet popup will appear as shown in the image below:
+![alt text](../images/image-2.png)
+
+If the user's current wallet does not meet the switching conditions, the relevant components will be grayed out, and the user needs to click the switch button to change the wallet type.
+![alt text](../images/image-3.png)
+
+Once the correct wallet is selected and confirmed, the Bybit Wallet will return the wallet address to the DApp.
