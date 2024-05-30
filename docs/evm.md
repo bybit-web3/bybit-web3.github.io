@@ -323,9 +323,9 @@ window.bybitWallet.request({
 ```
 
 This method requests the user to provide an array of `walletType` and `chainType` to switch the wallet type. After initiating the request, a Bybit Wallet popup will appear as shown in the image below:
-![alt text](../images/image-2.png)
+![alt text](./images/image-2.png)
 
 If the user's current wallet does not meet the switching conditions, the relevant components will be grayed out, and the user needs to click the switch button to change the wallet type.
-![alt text](../images/image-3.png)
+![alt text](./images/image-3.png)
 
 Once the correct wallet is selected and confirmed, the Bybit Wallet will return the wallet address to the DApp.
