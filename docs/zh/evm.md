@@ -20,7 +20,7 @@
 | Manta Pacific   | 169        | ✅ |
 | ZetaChain   | 7000        | ✅ |
 | MERLIN   | 4200        | ✅ |
-| Blast   |   81457      | 即将支持 |
+| Blast   |   81457      | ✅ |
 
 ### 助记词/私钥钱包
 
@@ -39,12 +39,12 @@
 | OKX Chain | 66        | ✅ |
 | MERLIN   | 7000        | ✅ |
 | BEvmChain   |   11501      | ✅ |
-| Manta Pacific   | 169        | 即将支持 |
-| Linea   | 59144        | 即将支持 |
-| Blast   |   81457      | 即将支持 |
-| Base   |   8453      | 即将支持 |
-| BounceBit   |   6001      | 即将支持 |
-| B Square   |   223      | 即将支持 |
+| Manta Pacific   | 169        | ✅ |
+| Linea   | 59144        | ✅ |
+| Blast   |   81457      | ✅ |
+| Base   |   8453      | ✅ |
+| BounceBit   |   6001      | ✅ |
+| B Square   |   223      | ✅ |
 
 ## 集成Bybit Wallet
 
