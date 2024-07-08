@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,V as n}from"./chunks/framework.fZt_wkQb.js";const g=JSON.parse('{"title":"SUI","description":"","frontmatter":{},"headers":[],"relativePath":"sui.md","filePath":"sui.md","lastUpdated":1720431711000}'),t={name:"sui.md"},e=n("",41),h=[e];function l(k,p,E,r,d,c){return a(),i("div",null,h)}const y=s(t,[["render",l]]);export{g as __pageData,y as default};
