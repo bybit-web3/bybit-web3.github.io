@@ -46,6 +46,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Solana', link: 'solana' },
         { text: 'Bitcoin', link: 'bitcoin' },
         { text: 'Stacks', link: 'stacks' },
+        { text: 'Sui', link: 'sui' },
       ]
     },
   ]
