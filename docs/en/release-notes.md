@@ -1,5 +1,21 @@
 # Release Notes
 
+## 3.7.0 (2024-07-09)
+
+### Features
+
+- web3 UID;
+- Gas station;
+- Historical order redesign;
+- Asset refresh;
+- Homepage top UI adjustment;
+
+### Bug Fixes
+
+- Wallet and Bybit site interaction issues;
+- Authorization page current wallet UI abnormality;
+- Compatibility with STX staking, support for Dapp to pass tx hex data for signing and on-chain submission;
+
 ## 3.6.0 (2024-06-28)
 
 ### Features

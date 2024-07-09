@@ -1,5 +1,21 @@
 # 更新日志
 
+## 3.7.0 (2024-07-09)
+
+### Features
+
+- web3 UID
+- Gas station
+- 历史订单改版
+- 资产刷新  
+- 首页顶部UI调整
+
+### Bug Fixes
+
+- 钱包和bybit站点交互问题
+- 授权页面当前钱包UI异常问题
+- 兼容STX staking，支持dapp传tx hex数据过来签名上链
+
 ## 3.6.0 (2024-06-28)
 
 ### Features
