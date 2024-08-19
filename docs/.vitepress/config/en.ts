@@ -44,6 +44,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Bitcoin', link: 'bitcoin' },
         { text: 'Stacks', link: 'stacks' },
         { text: 'Sui', link: 'sui' },
+        { text: 'Aptos', link: 'aptos' },
       ]
     },
   ]
