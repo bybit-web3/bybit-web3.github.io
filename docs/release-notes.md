@@ -1,5 +1,63 @@
 # Release Notes
 
+## 3.11.0 (2024-08-22)
+
+### Features
+ - Added support for TON chain
+ - Gas Station now supports Solana
+
+## 3.10.0 (2024-08-16)
+
+### Features
+
+ - Added transaction entry on currency details page
+
+### Bug Fixes
+ - Occasional black screen issue
+
+## 3.9.0 (2024-08-02)
+
+### Features
+
+ - Optimized asset management search
+ - Added support for security components
+ - Pre-execution (Phase One)
+ - Added support for Aptos chain
+ - Plugin now supports referralCode
+ - Optimized risk control web3 interface call
+ - Plugin now integrates Bybit unified full point
+
+## 3.8.2 (2024-07-20)
+
+### Bug Fixes
+
+ - Blinks style injection affecting web issues
+ - Cloud wallet security component auto refresh issue
+
+## 3.8.1 (2024-07-19)
+
+### Bug Fixes
+
+ - Issue with total assets and web3Uid assets showing as NaN in wallet list with multiple wallets
+
+## 3.8.0 (2024-07-18)
+
+### Features
+
+ - Blinks
+ - Log function
+ - Cloud wallet initialization with bound web3Uid reduces one walletList request, improving UI response speed
+ - Switching web3Uid no longer defaults to selecting a wallet (affects dapp connection prompt)
+ - Copy and risk reminder popup on mnemonic phrase/private key page now has a maximum height of 560px, with content area scrolling when exceeded
+
+### Bug Fixes
+
+ - Issue with homepage flashing after unlocking
+ - Wallet information error when dapp authorizes a wallet that is not the currently selected wallet
+ - Web3Uid not displaying assets during first import
+ - No EVM chain icon when importing a new wallet with a private key
+ - Issue with being unable to set a default address for BTC
+
 ## 3.7.0 (2024-07-09)
 
 ### Features
