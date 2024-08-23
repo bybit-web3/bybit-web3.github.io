@@ -1,6 +1,6 @@
 # Release Notes
 
-## 3.11.0 (2024-08-22)
+## 3.12.0 (2024-08-23)
 
 ### Features
  - Added support for TON chain
