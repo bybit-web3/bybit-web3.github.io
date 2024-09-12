@@ -45,6 +45,11 @@
 | Base   |   8453      | ✅ |
 | BounceBit   |   6001      | ✅ |
 | B Square   |   223      | ✅ |
+| Cronos   |   25      | ✅ |
+| GM Network   |   2777      | ✅ |
+| Bitlayer   |   200901      | ✅ |
+| Taiko   |   167000      | ✅ |
+| Scroll   |   534352      | ✅ |
 
 ## Integrating Bybit Wallet
 
