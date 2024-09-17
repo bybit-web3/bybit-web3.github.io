@@ -48,6 +48,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Stacks', link: 'stacks' },
         { text: 'Sui', link: 'sui' },
         { text: 'Aptos', link: 'aptos' },
+        { text: 'Ton', link: 'ton' },
       ]
     },
   ]
