@@ -1,6 +1,5 @@
-# Aptos Network
-
-Aptos is an emerging blockchain platform designed to provide a high-performance and secure environment for developing decentralized applications (DApps). Its design goal is to address performance bottlenecks and security issues in existing blockchain systems through innovative consensus mechanisms and smart contract languages. Aptos' main features include high throughput, low latency, and robust security, making it an ideal choice for developers and users.
+# Aptos/Movement
+Aptos is a Layer 1 blockchain project aimed at building scalable, upgradeable, and secure Web3 infrastructure. Initially created by the team behind Facebook's stablecoin project Libra (later renamed Diem), Aptos is now independently developed by some of the original team members. Aptos uses the Move smart contract language, and common Aptos-compatible networks include Movement and others.
 
 # What is the Injected Provider API?
 
@@ -81,11 +80,11 @@ const account = await window.bybitWallet.aptos.account();
 
 Method used: `window.bybitWallet.aptos.network()`
 
-Calling `window.bybitWallet.aptos.network()` will get the network information of the current Dapp connection and return the name of the connected network. Currently, Bybit Wallet only supports `mainnet`.
+Calling `window.bybitWallet.aptos.network()` will get the network information of the current Dapp connection and return the name of the connected network. Currently, Bybit Wallet only supports `Mainnet` | `Movement Testnet`.
 
 ```js
 const network = await window.bybitWallet.aptos.network();
-console.log('network', network); // Returns 'mainnet'
+console.log('network', network); // Returns 'Mainnet'
 ```
 
 # Transaction Signing

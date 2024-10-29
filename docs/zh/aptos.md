@@ -1,6 +1,6 @@
-# Aptos网络
+# Aptos/Movement
 
-Aptos 是一个新兴的区块链平台，旨在提供高性能和安全的去中心化应用（DApp）开发环境。它的设计目标是通过创新的共识机制和智能合约语言，解决现有区块链系统中的性能瓶颈和安全问题。Aptos 的主要特点包括高吞吐量、低延迟和强大的安全性，使其成为开发者和用户的理想选择。
+Aptos 是基于 Layer 1 的公链项目，旨在建设可扩展、可升级、安全可信的 Web3 基础设施。Aptos 最初由 Facebook 稳定币项目 Libra (后改名为 Diem) 的团队创建，现由部分团队成员独立开发。Aptos 采用了 Move 智能合约语言，常见的 Aptos 兼容网络包括 Movement 等。
 
 # 什么是 Injected provider API？
 
@@ -82,11 +82,11 @@ const account = await window.bybitWallet.aptos.account();
 
 使用的方法：`window.bybitWallet.aptos.network()`
 
-调用 `window.bybitWallet.aptos.network()`，将会获取当前 Dapp 链接的网络信息，将会返回链接的网络名称。目前Bybit Wallet只支持`mainnet`。
+调用 `window.bybitWallet.aptos.network()`，将会获取当前 Dapp 链接的网络信息，将会返回链接的网络名称。目前Bybit Wallet只支持`Mainnet` | `Movement Testnet`。
 
 ```js
 const network = await window.bybitWallet.aptos.network();
-console.log('network', network); // 返回值为 'mainnet'
+console.log('network', network); // 返回值为 'Mainnet'
 ```
 
 # 交易签名
