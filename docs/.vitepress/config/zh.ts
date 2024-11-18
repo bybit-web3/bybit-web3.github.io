@@ -43,12 +43,13 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'EVM', link: 'evm' },
-        { text: 'Solana', link: 'solana' },
+        { text: 'Solana/Sonic', link: 'solana' },
         { text: 'Bitcoin', link: 'bitcoin' },
         { text: 'Stacks', link: 'stacks' },
         { text: 'Sui', link: 'sui' },
         { text: 'Aptos/Movement', link: 'aptos' },
         { text: 'Ton', link: 'ton' },
+        { text: 'Tron', link: 'tron' },
       ]
     },
   ]
