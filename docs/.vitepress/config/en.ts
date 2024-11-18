@@ -46,6 +46,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Sui', link: 'sui' },
         { text: 'Aptos/Movement', link: 'aptos' },
         { text: 'Ton', link: 'ton' },
+        { text: 'Tron', link: 'tron' },
       ]
     },
   ]
