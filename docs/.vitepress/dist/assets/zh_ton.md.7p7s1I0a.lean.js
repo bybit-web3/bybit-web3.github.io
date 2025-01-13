@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,V as n}from"./chunks/framework.fZt_wkQb.js";const y=JSON.parse('{"title":"Ton","description":"","frontmatter":{},"headers":[],"relativePath":"zh/ton.md","filePath":"zh/ton.md","lastUpdated":null}'),h={name:"zh/ton.md"},l=n("",65),t=[l];function p(k,e,E,r,d,g){return a(),i("div",null,t)}const c=s(h,[["render",p]]);export{y as __pageData,c as default};
