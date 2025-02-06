@@ -1,5 +1,109 @@
 # Release Notes
 
+
+## 4.1.0
+
+### Features
+- [New] Plugin supports cloud wallet creation
+- [Governance] 5 JS alerts and 4 interface alerts
+- [Reporting] Added tracking for wallet creation/import and sub-account creation
+
+### Bug Fixes
+- [Optimization] 5 user experience improvements
+- [Fix] 5 known issues
+
+## 4.0.4
+
+### Bug Fixes
+- [Fix] Error in address validity check when sending tokens on testnet
+- [Fix] Wallet import did not reset to all chains (selecting unsupported network triggered exception)
+
+## 3.17.1
+
+### Bug Fixes
+- [Fix] Incorrect precision passed when estimating gas fee on Tron chain
+- [Fix] Custom network gas fee estimation did not use user-defined rpcUrl
+
+## 3.17.0
+
+### Features
+- [New] Chain integration project - sonic
+- [New] Chain integration project - Xterio (EVM)
+
+### Bug Fixes
+- [Fix] Bug fixes for custom networks
+
+## 3.16.4
+
+### Bug Fixes
+- [Fix] Occasional issue of entering initial page upon unlocking
+- [Fix] Abnormal issue when selecting BTC chain in cloud wallet
+
+## 3.16.3
+
+### Bug Fixes
+- [Fix] Issue with returning to the receive homepage when clicking on receive operation history item
+
+## 3.16.2
+
+### Features
+- [New] Custom networks
+- [New] Mnemonic wallet support for Tron network
+- [New] Automatic switching to optimal network service
+
+### Bug Fixes
+- [Optimization] Default content display when token search box is not focused and empty
+- [Optimization] Hide add sub-account entry in mnemonic wallet details for TON chain
+
+## 3.15.0
+
+### Features
+- [New] Removal of web3Uid from main process
+
+### Bug Fixes
+- [Fix] No interception for duplicate wallet and account names
+- [Fix] No prompt for duplicate import of TON single-chain mnemonic, resulting in two related TON single-chain mnemonics
+
+## 3.14.1
+
+### Bug Fixes
+- [Fix] Hidden browser tab unable to interact with wallet
+- [Fix] eth_requestAccounts does not trigger accountsChanged event after being connected
+
+### Bug Fixes
+- [Optimization] Replace missing multilingual content
+
+## 3.14.0
+
+### Features
+- [New] Split-screen function in reading bar
+- [New] Supplement DEX Pro source data
+
+### Bug Fixes
+- [Optimization] Fixed copy icon size to prevent icon shrinkage on NFT send confirmation page
+- [Optimization] Adjusted recharge QR code to 220px to improve scanning issues on some devices
+- [Optimization] Changed i18n to local language pack to prevent wallet from continuously loading in restricted regions
+- [Optimization] Performance reporting optimization, retry last failed report
+- [Fix] Issue with new heterogeneous chain not interacting on bybit site without disconnection
+- [Fix] Asset not updating when continuing to withdraw after closing details page
+- [Fix] Popup still displayed after auto-lock
+- [Fix] Cross-domain black screen issue with signMessage interface
+
+## 3.13.1
+
+### Bug Fixes
+- [Fix] TON disconnection affecting other dApp issues
+- [Fix] Occasional exception in obtaining native currency balance for TON signature
+- [Fix] Error in chainId judgment for EVM signature verification
+
+## 3.13.0
+
+### Features
+- [New] Monitoring alerts
+- [New] Pre-execution
+- [New] Blink reporting
+
+
 ## 3.12.0 (2024-08-23)
 
 ### Features
