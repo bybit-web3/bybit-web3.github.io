@@ -1,4 +1,4 @@
-# How to Manually Update the Plugin Wallet?
+# How to Update the Plugin Wallet?
 
 The update of the Bybit Wallet plugin is automatic, and the Chrome/Edge browser will periodically check for updates of installed plugins. Specifically, the update mechanism is as follows:
 
