@@ -36,6 +36,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       link: 'release-notes'
     },
     {
+      text: 'How to Update the Plugin Wallet',
+      link: 'update-wallet'
+    },
+    {
       text: 'Dapp Integration Guide',
       collapsed: false,
       items: [
