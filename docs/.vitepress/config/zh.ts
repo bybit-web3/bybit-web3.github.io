@@ -39,6 +39,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       link: 'release-notes'
     },
     {
+      text: '如何手动更新插件钱包',
+      link: 'update-wallet'
+    },
+    {
       text: 'Dapp接入指南',
       collapsed: false,
       items: [
