@@ -40,7 +40,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       link: 'update-wallet'
     },
     {
-      text: 'Dapp Integration Guide',
+      text: 'Dapp Integration Guide (Browser Plugin Wallet)',
       collapsed: false,
       items: [
         { text: 'EVM', link: 'evm' },
@@ -51,6 +51,13 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: 'Aptos/Movement', link: 'aptos' },
         { text: 'Ton', link: 'ton' },
         { text: 'Tron', link: 'tron' },
+      ]
+    },
+    {
+      text: 'Dapp Integration Guide (Telegram Mini Wallet)',
+      collapsed: false,
+      items: [
+        { text: 'Ton', link: 'mini-wallet/ton' },
       ]
     },
   ]
