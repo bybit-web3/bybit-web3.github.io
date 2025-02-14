@@ -24,4 +24,7 @@ Users can manually update the plugin as follows:
 - Open the Chrome browser, enter chrome://extensions/ to access the extensions page.
 - Enable "Developer mode" in the upper right corner of the page.
 - Click the "Update" button, and Chrome will immediately check for updates of all installed plugins and install them.
+
+![update-wallet](../public/chrome-update-guide.jpeg)
+
 If you need to manually update a specific plugin, you can follow the above steps.
